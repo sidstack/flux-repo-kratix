@@ -4,6 +4,6 @@ metadata:
   name: test-dummy-echo
   namespace: default
   labels:
-    # kratix.io/trigger-delete-workflows: "true"
+    kratix.io/trigger-delete-workflows: "true"
 spec:
   test: "Hello from Kratix Dummy Promise! test"
