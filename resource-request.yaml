@@ -4,6 +4,6 @@ metadata:
   name: test-dummy-echo
   namespace: default
   labels:
-    # kratix.io/manual-reconciliation: "true"
+    kratix.io/manual-reconciliation: "true"
 spec:
   test: "Hello from Kratix Dummy Promise! test"
