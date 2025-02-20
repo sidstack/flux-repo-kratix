@@ -1,9 +1,9 @@
- apiVersion: marketplace.kratix.io/v1alpha1
- kind: Dummy
- metadata:
-   name: test-dummy-echo
-   namespace: default
-   labels:
-     kratix.io/manual-reconciliation=true
- spec:
-   test: "Hello from Kratix Dummy Promise! test"
+apiVersion: marketplace.kratix.io/v1alpha1
+kind: Dummy
+metadata:
+  name: test-dummy-echo
+  namespace: default
+  # labels:
+  #   kratix.io/manual-reconciliation: "true"
+spec:
+  test: "Hello from Kratix Dummy Promise! test"
